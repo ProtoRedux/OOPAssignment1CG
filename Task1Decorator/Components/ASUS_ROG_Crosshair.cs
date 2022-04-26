@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Task1Decorator.Components
 {
-    public class DarkRoast : Beverage
+    public class ASUS_ROG_Crosshair : Motherboard
     {
-        public DarkRoast()
+        public ASUS_ROG_Crosshair()
         {
-            Description = "Dark Roast Coffee";
+            Description = "ASUS ROG Crosshair VIII Impact, X570";
         }
 
         public override double Cost()
         {
-            return .99;
+            return 349.35;
         }
     }
 }

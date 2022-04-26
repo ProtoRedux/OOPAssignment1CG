@@ -8,20 +8,20 @@ namespace Task1Decorator
         {
             public static void Main(string[] args)
             {
-                Beverage beverage = new Espresso();
-                Console.WriteLine(beverage.Description + " $" + beverage.Cost());
+                Motherboard purchase = new ASUS_ROG_Crosshair();
+                Console.WriteLine(purchase.Description + " $" + purchase.Cost());
 
-                Beverage beverage2 = new DarkRoast();
-                beverage2 = new Mocha(beverage2);
-                beverage2 = new Mocha(beverage2);
-                beverage2 = new Whip(beverage2);
-                Console.WriteLine(beverage2.Description + " $" + beverage2.Cost());
+                Motherboard purchase2 = new ASUS_ROG_Maximus();
+                purchase2 = new CPU(purchase2);
+                purchase2 = new RAM(purchase2);
+                purchase2 = new Fan(purchase2);
+                Console.WriteLine(purchase2.Description + " $" + purchase2.Cost());
 
-                Beverage beverage3 = new HouseBlend();
-                beverage3 = new Soy(beverage3);
-                beverage3 = new Mocha(beverage3);
-                beverage3 = new Whip(beverage3);
-                Console.WriteLine(beverage3.Description + " $" + beverage3.Cost());
+                Motherboard purchase3 = new ASUS_ROG_Strix();
+                purchase3 = new RAM(purchase3);
+                purchase3 = new CPU(purchase3);
+                purchase3 = new Fan(purchase3);
+                Console.WriteLine(purchase3.Description + " $" + purchase3.Cost());
             }
         }
     }

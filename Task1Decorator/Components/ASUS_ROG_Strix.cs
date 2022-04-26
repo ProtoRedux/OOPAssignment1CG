@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace Task1Decorator.Components
 {
-    public class HouseBlend : Beverage
+    public class ASUS_ROG_Strix : Motherboard
     {
-        public HouseBlend()
+        public ASUS_ROG_Strix()
         {
-            Description = "House Blend Coffee";
+            Description = "ASUS ROG Strix X570-I gaming motherboard";
         }
 
         public override double Cost()
         {
-            return .89;
+            return 279.98;
         }
     }
 }

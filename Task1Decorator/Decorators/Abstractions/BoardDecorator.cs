@@ -7,7 +7,7 @@ using Task1Decorator.Components;
 
 namespace Task1Decorator.Decorators
 {
-    public abstract class CondimentDecorator : Beverage
+    public abstract class BoardDecorator : Motherboard
     {
         public abstract override string Description { get; }
     }
