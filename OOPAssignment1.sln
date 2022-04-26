@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1Decorator", "Task1Decorator.csproj", "{F02103A5-F1BB-498E-A6D0-BA2B8CFCFC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Observer", "..\Task2Observer\Task2Observer.csproj", "{88A38F3B-8790-4BEC-A297-1427DB7DA259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02103A5-F1BB-498E-A6D0-BA2B8CFCFC88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02103A5-F1BB-498E-A6D0-BA2B8CFCFC88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02103A5-F1BB-498E-A6D0-BA2B8CFCFC88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02103A5-F1BB-498E-A6D0-BA2B8CFCFC88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A38F3B-8790-4BEC-A297-1427DB7DA259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A38F3B-8790-4BEC-A297-1427DB7DA259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A38F3B-8790-4BEC-A297-1427DB7DA259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A38F3B-8790-4BEC-A297-1427DB7DA259}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4458C6-829F-4A9F-9651-5A4E6D7BA6C1}
+	EndGlobalSection
+EndGlobal
