@@ -8,13 +8,19 @@ namespace Task2Observer
     {
         public static void Main(string[] args)
         {
-            WeatherData weatherData = new WeatherData();
+            //generates a new inventory object from inventory class called inventory list.
+            Inventory inventoryList = new Inventory();
 
-            CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
+            //generates a new inventory deispaly object using the generated inventory list object.
+            CurrentInventoryDisplay CurrentInventory = new CurrentInventoryDisplay(inventoryList);
 
-            weatherData.SetMeasurements(80, 65, 30.4d);
-            weatherData.SetMeasurements(82, 70, 29.2d);
-            weatherData.SetMeasurements(78, 90, 29.2d);
+            //for the purposes of testing, three differant inventory levels for three items have been hardcoded below.
+            //for the first test, manga has a value of 80 on hand, problem sheets a value of 65 and lightnovels 30.
+            inventoryList.SetInventoryLevels(80, 65, 30);
+            //to confirm the observers are notified of anychange and update correctly the values are shifted.
+            inventoryList.SetInventoryLevels(42, 55, 29);
+            //this was completed one final time to ensure updates occured.
+            inventoryList.SetInventoryLevels(90, 90, 19);
         }
     }
 }
