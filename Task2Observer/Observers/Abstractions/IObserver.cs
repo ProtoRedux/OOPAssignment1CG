@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Task2Observer.Observers
 {
+    //The observer interface is attached to objects to update their held values if any linked subjects values change.
     public interface IObserver
     {
-        void Update(double temp, double humidity, double pressure);
+        //This interface will run the update method for each of the subjects values. 
+        void Update(int manga, int problemsheet, int lightnovel);
     }
 }
 
